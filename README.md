@@ -8,6 +8,17 @@ Sparkify offers its users the ability to stream music through two types of subsc
 
 The primary objective of this project is to develop a machine learning model capable of accurately identifying churned users.
 
+## Libraries Used
+
+This project uses the following Python libraries:
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- pyspark
+
 ## Results 
 The winning model for churn prediction is a optimized logistic regression model that achieves an Accuracy of 0.88 and a F1 score of 0.87 on the test set.
 Remember that we are using a small sample data, the results can be different if we user the full dataset.
@@ -24,9 +35,15 @@ Please visit this [article](https://medium.com/@rafhslv/spark-and-churn-predicti
 
 ## Installation
 
-git clone https://github.com/rafhsilv/sparkify.git
+To install the necessary libraries, run the following command:
+
+```pip install -r requirements.txt
+
+To clone the repository, use the following command:
+
+`git clone https://github.com/rafhsilv/sparkify.git`
+
 
 ## Acknowledgements
 
 Thanks to Udacity for providing this project.
-
