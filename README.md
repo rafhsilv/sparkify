@@ -37,7 +37,7 @@ Please visit this [article](https://medium.com/@rafhslv/spark-and-churn-predicti
 
 To install the necessary libraries, run the following command:
 
-```pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 To clone the repository, use the following command:
 
